@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from "react";
 import { useParams, Link } from "react-router-dom";
 import "./PostDetail.css"
-import SocialShare from "../SocialShare/SocialShare";
+import SocialShare from "../../components/SocialShare/SocialShare";
 
 interface Post {
     id: number;

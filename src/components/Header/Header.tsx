@@ -1,6 +1,6 @@
 import React from 'react';
-import Login from './Login/Login'; // Імпортуємо компонент Login
-import ProfileIndicator from './ProfileIndicator'; // Імпортуємо ProfileIndicator
+import Login from '../Login/Login'; // Імпортуємо компонент Login
+import ProfileIndicator from '../ProfileIndificator/ProfileIndicator'; // Імпортуємо ProfileIndicator
 import { Link } from 'react-router-dom'; // Імпортуємо Link
 import './Header.css';
 
@@ -19,6 +19,7 @@ const Header: React.FC<HeaderProps> = ({ isLoggedIn, userEmail, onLogin, onLogou
                 <Link to="/">
                     <img src="/img/logo.png" alt="Logo" />
                 </Link>
+
             </div>
             <div className="profile-info">
                 {isLoggedIn ? (

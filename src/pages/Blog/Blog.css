@@ -1,10 +1,10 @@
 .no-underline {
-    text-decoration: none; /* Прибирає підкреслення */
-    color: inherit; /* Зберігає колір тексту */
+    text-decoration: none;
+    color: inherit;
 }
 
 .no-underline:hover, .no-underline:focus, .no-underline:active {
-    text-decoration: none; /* Залишається без підкреслення при наведенні або фокусі */
+    text-decoration: none;
 }
 
 

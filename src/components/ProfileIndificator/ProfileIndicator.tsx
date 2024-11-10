@@ -1,4 +1,3 @@
-// components/ProfileIndicator.tsx
 import React from "react";
 import "./ProfileIndicator.css"
 
@@ -9,13 +8,13 @@ interface ProfileIndicatorProps {
 
 const ProfileIndicator: React.FC<ProfileIndicatorProps> = ({ email, onLogout }) => {
     const getInitial = (email: string) => {
-        return email && email.length > 0 ? email.charAt(0).toUpperCase() : ''; // Перевірка на порожній email
+        return email && email.length > 0 ? email.charAt(0).toUpperCase() : '';
     };
 
     return (
         <div className="profile-indicator">
             <div className="profile-icon">
-                {getInitial(email)}  {/* Виводимо тільки першу літеру */}
+                {getInitial(email)}
             </div>
             <button onClick={onLogout}>Exit</button>
         </div>

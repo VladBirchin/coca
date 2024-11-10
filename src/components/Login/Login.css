@@ -65,11 +65,11 @@ button:hover {
 
 .button-container {
     display: flex;
-    justify-content: center; /* Центрує кнопку */
+    justify-content: center;
 
 }
 
-/* Анімація для відкриття модального вікна */
+
 @keyframes modal-open {
     to {
         transform: scale(1);

@@ -8,10 +8,10 @@ const PostList: React.FC = () => {
     const [currentIndex, setCurrentIndex] = useState(0);
     const POSTS_PER_PAGE = 8;
 
-    const { posts, error } = useFetchPost(); // Use the hook to fetch posts
-    const generateRandomDate = useGenerateDate(); // Use the date generation hook
+    const { posts, error } = useFetchPost();
+    const generateRandomDate = useGenerateDate();
 
-    // Update posts with random dates
+
     const postsWithDates = posts.map((post) => ({
         ...post,
         date: generateRandomDate(),

@@ -1,8 +1,8 @@
 .header{
     display: flex;
 
-    justify-content: space-between; /* Розподіляє елементи між лівим і правим краєм */
-    align-items: center; /* Вирівнює по вертикалі */
+    justify-content: space-between;
+    align-items: center;
     padding: 35px 100px;
 }
 

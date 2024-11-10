@@ -5,7 +5,7 @@ const SocialShare: React.FC = () => {
     return (
         <div className="social-share">
 
-            <h3>Share</h3>
+            <h3 className="mb-4 text-xl font-bold text-gray-800">Share</h3>
             <div className="social-icons">
                 <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
                     <img src="/icons/facebook.png" alt="Facebook" />

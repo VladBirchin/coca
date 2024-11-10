@@ -1,28 +1,22 @@
 .footer{
     margin-top: 200px;
-    padding: 100px 265px;
+    padding: 100px 265px 0 265px;
     border-top: #F2F4FC 2px solid;
 }
 
 
 .title_part{
     display: flex;
-
-
-    justify-content: space-between; /* Розподіляє елементи між лівим і правим краєм */
+    justify-content: space-between;
     align-items: flex-start;
     height: 91px;
     border-bottom: 1px solid #E9ECF2;
-
-
-
 }
 
 
 .button{
     display: flex;
     align-items: center;
-
 }
 
 .button_title{
@@ -35,7 +29,6 @@
     text-decoration-skip-ink: none;
     color: #808D9E;
     margin-right: 39px;
-
 }
 
 .button button{
@@ -48,10 +41,8 @@
     font-size: 16px;
     font-weight: 700;
     line-height: 20px;
-
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
-
     color: #FFFFFF;
 }
 
@@ -63,18 +54,14 @@
 
 .subscribe{
     margin-right: -60px;
-
 }
 
 .subscribe_title{
-
     font-family: DM Sans;
     font-size: 24px;
     font-weight: 700;
     text-decoration-skip-ink: none;
     width: 200px;
-
-
 }
 
 .subscribe_content{
@@ -154,7 +141,7 @@
     display: flex;
 
     margin-top: 56px;
-    justify-content: space-between; /* Розподіляє елементи між лівим і правим краєм */
+    justify-content: space-between;
 }
 
 .ink_part img{
