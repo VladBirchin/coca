@@ -1,0 +1,180 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    border-top: #F2F4FC 2px solid;
+    padding-top: 150px;
+
+
+}
+
+
+
+.container h1{
+    width: 1160px;
+    font-family: DM Sans;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 86px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #1D1E25;
+
+}
+
+.container .subtitle{
+    width: 1160px;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: -0.5px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #808D9E;
+
+}
+
+button{
+    padding: 10px 24px;
+    background-color: #F2F4FC;
+    border-radius: 8px;
+    border: none;
+    color: #2A85FF;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -1px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+/* PostList.css */
+
+/* Прибираємо підкреслення посилань */
+.post-list a {
+    text-decoration: none;
+
+}
+
+
+.post-list {
+    width: 1150px;
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+}
+
+
+.post-item {
+    width: 248px;
+    height: 458px;
+
+
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+
+    background-color: #fff;
+    margin-bottom: 51px;
+    position: relative;
+}
+
+
+
+
+.post-item::before {
+    content: "";
+    position: absolute;
+    top: 50%; /* Встановлюємо лінію по центру елемента */
+    left: 93%; /* Лінія буде справа від кожного елемента */
+    width: 1px; /* Ширина лінії */
+    height: 423px; /* Висота лінії */
+    background-color: #E9ECF2; /* Колір лінії */
+    transform: translateY(-50%); /* Центруємо лінію по вертикалі */
+    margin-left: 28px;
+}
+.post-item:nth-child(4n)::before {
+    content: none; /* Не показувати лінію */
+}
+
+/* Відключаємо лінію для останнього елемента */
+.post-item:last-child::before {
+    display: none;
+}
+
+
+/* Для зображень, щоб вони займали всю доступну ширину */
+.post-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Стилі для заголовку та тексту */
+.post-item h2 {
+    color: #1D1E25;
+    font-family: DM Sans;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: -1px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.post-item p {
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+    color: #808D9E;
+
+}
+
+.post-item span {
+    display: block;
+    color: #808D9E;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -1px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    opacity: 70%;
+
+}
+
+
+.main_info{
+    background-color: #B1E5FC;
+    padding: 30px 50px;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #1D1E25;
+
+}

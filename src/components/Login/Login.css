@@ -1,0 +1,163 @@
+/* Стилі для кнопки */
+
+
+
+.login button {
+
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #F2F4FC;
+    border-radius: 50px;
+    border: none;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 700;
+
+
+    text-decoration-skip-ink: none;
+
+    color: #1D1E25;
+
+
+    transition: background-color 0.3s ease;
+    margin-right: 38px;
+}
+
+button:hover {
+    background-color: #dadce2;
+}
+
+/* Стилі для фонового затемнення */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+    backdrop-filter: blur(5px);
+}
+
+/* Стилі для модального вікна */
+.modal {
+    background-color: white;
+    padding: 0 36px;
+    border-radius: 25px;
+    width: 414px;
+    height: 507px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1001;
+    transform: scale(0);
+    animation: modal-open 0.3s forwards;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+
+
+}
+
+.button-container {
+    display: flex;
+    justify-content: center; /* Центрує кнопку */
+
+}
+
+/* Анімація для відкриття модального вікна */
+@keyframes modal-open {
+    to {
+        transform: scale(1);
+    }
+}
+
+.modal input {
+    width: 100%;
+
+    margin-bottom: 10px;
+    border: 1px solid #000000;
+    border-radius: 15px;
+    width: 378px;
+    height: 60px;
+    font-family: DM Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #9E9E9E;
+    padding-left: 21px;
+
+}
+
+.modal input::placeholder {
+
+
+}
+
+.modal label{
+    font-family: DM Sans;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 14px;
+
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-left: 21px;
+
+}
+
+.modal h2{
+
+    font-family: DM Sans;
+    font-size: 60px;
+    font-weight: 700;
+
+    letter-spacing: -0.03em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.modal button {
+    background-color: #6BE4FF;
+    width: 265px;
+    height: 60px;
+    color: #000;
+    border-radius: 15px;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 22px;
+
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+    margin-top: 65px;
+
+
+
+}
+
+.modal button:hover {
+    background-color: #45a049;
+}
+
+
+.email-initial {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+

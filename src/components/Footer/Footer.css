@@ -1,0 +1,175 @@
+.footer{
+    margin-top: 200px;
+    padding: 100px 265px;
+    border-top: #F2F4FC 2px solid;
+}
+
+
+.title_part{
+    display: flex;
+
+
+    justify-content: space-between; /* Розподіляє елементи між лівим і правим краєм */
+    align-items: flex-start;
+    height: 91px;
+    border-bottom: 1px solid #E9ECF2;
+
+
+
+}
+
+
+.button{
+    display: flex;
+    align-items: center;
+
+}
+
+.button_title{
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #808D9E;
+    margin-right: 39px;
+
+}
+
+.button button{
+    width: 175px;
+    height: 48px;
+    border: none;
+    border-radius: 8px;
+    background-color: #2A85FF;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+    color: #FFFFFF;
+}
+
+
+.content_part{
+    margin-top: 40px;
+    display: flex;
+}
+
+.subscribe{
+    margin-right: -60px;
+
+}
+
+.subscribe_title{
+
+    font-family: DM Sans;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration-skip-ink: none;
+    width: 200px;
+
+
+}
+
+.subscribe_content{
+    margin-top: 28px;
+    width: 289px;
+    height: 51px;
+    border-bottom: 1px solid #1D1E250D;
+
+}
+
+.subscribe_content input{
+    height: 48px;
+    width: 235px;
+    border: none;
+}
+
+
+.subscribe_content input::placeholder{
+
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: -0.5px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    opacity: 50%;
+    color: #808D9E;
+}
+
+
+.subscribe_content button{
+    height: 50px;
+    width: 50px;
+    background-color: #2A85FF;
+    border: none;
+    border-radius: 8px 8px 0 0;
+}
+
+
+.info{
+    margin-left: 160px;
+}
+
+.info_title{
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -1px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #2A85FF;
+    margin-bottom: 22px;
+    width: 118px;
+
+}
+
+
+.info_element{
+    font-family: DM Sans;
+
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #1D1E25;
+    margin-bottom: 16px;
+
+}
+
+.ink_part{
+    display: flex;
+
+    margin-top: 56px;
+    justify-content: space-between; /* Розподіляє елементи між лівим і правим краєм */
+}
+
+.ink_part img{
+    margin-left: 40px;
+}
+
+.ink_part p{
+
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #808D9E;
+
+}

@@ -1,0 +1,178 @@
+.no-underline {
+    text-decoration: none; /* Прибирає підкреслення */
+    color: inherit; /* Зберігає колір тексту */
+}
+
+.no-underline:hover, .no-underline:focus, .no-underline:active {
+    text-decoration: none; /* Залишається без підкреслення при наведенні або фокусі */
+}
+
+
+.blog{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+
+}
+
+.blog-container {
+    display: flex;
+    gap: 30px;
+
+    max-width: 1200px;
+
+    padding: 20px;
+}
+
+.featured-post {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.featured-post img {
+    width: 100%;
+    height: 336px;
+
+}
+
+
+.featured-post span {
+
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -1px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #808D9E;
+    opacity: 70%;
+
+
+}
+
+
+.featured-post h2{
+    font-family: Urbanist;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #1D1E25;
+
+}
+
+.featured-post p{
+
+    font-family: Urbanist;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #1D1E25;
+    opacity: 70%;
+
+
+
+}
+
+.other-posts {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.blog-item {
+    display: flex;
+    margin-bottom: 30px;
+
+
+}
+
+
+.blog-item span{
+
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -1px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    opacity: 70%;
+    color: #808D9E;
+
+}
+
+.blog-item h2{
+
+    font-family: Urbanist;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #1D1E25;
+
+}
+
+.blog-item img {
+
+
+    height: 160px;
+    border-radius: 8px;
+}
+
+
+
+
+.blog_title{
+    color: #1D1E25;
+
+    font-family: DM Sans;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 86px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    width: 1174px;
+
+}
+
+.blog_subtitle{
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -1px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #2A85FF;
+    width: 1174px;
+
+}
+
+.post-info{
+    margin-top: 5px;
+    margin-left: 26px;
+
+}
+
+
+
+

@@ -1,0 +1,19 @@
+.header{
+    display: flex;
+
+    justify-content: space-between; /* Розподіляє елементи між лівим і правим краєм */
+    align-items: center; /* Вирівнює по вертикалі */
+    padding: 35px 100px;
+}
+
+
+.profile-info{
+    align-items: center;
+
+    display: flex;
+}
+
+.profile-info img{
+    width: 30px;
+    height: 30px;
+}
